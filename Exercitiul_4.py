@@ -1,0 +1,5 @@
+a=str(input("Dati un cuvant (minimum 3 litere): "))
+b=str(input("Dati un cuvant (minimum 3 litere): "))
+c=str(input("Dati un cuvant (minimum 3 litere): "))
+d=str(input("Dati un cuvant (minimum 3 litere): "))
+print("Noul cuvant:", a[0: 3]+b[0]+c[0: 4]+d[(len(d)//2):])
